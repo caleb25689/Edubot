@@ -1,0 +1,136 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', Arial, sans-serif;
+  background: #f0f8ff;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+}
+
+/* Header */
+header {
+  background: #4cafef;
+  padding: 20px;
+  color: white;
+  font-size: 1.8rem;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Container */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+/* Search Box */
+#searchBox {
+  padding: 12px;
+  width: 70%;
+  max-width: 400px;
+  border: 2px solid #4cafef;
+  border-radius: 10px;
+  outline: none;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  background: #4cafef;
+  color: white;
+  font-size: 1rem;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #3797db;
+  transform: scale(1.05);
+}
+
+/* Answer Box */
+#answerBox {
+  margin: 20px auto;
+  padding: 15px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  min-height: 60px;
+  max-width: 700px;
+  font-size: 1.1rem;
+}
+
+/* Progress Tracker */
+.progress-container {
+  margin: 20px auto;
+  text-align: center;
+}
+
+#progressBar {
+  width: 80%;
+  height: 20px;
+  border-radius: 10px;
+}
+
+#progressText {
+  font-weight: bold;
+  margin-top: 8px;
+  color: #4cafef;
+}
+
+/* Quiz Box */
+#quizBox {
+  background: #fff;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 15px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  max-width: 600px;
+  font-size: 1.1rem;
+}
+
+/* Voice Reading */
+#readText {
+  width: 70%;
+  max-width: 400px;
+  padding: 10px;
+  border: 2px solid #4cafef;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Homework Upload */
+#homeworkUpload {
+  margin: 10px;
+}
+
+#homeworkStatus {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #2d7a2d;
+}
+
+/* Premium Section */
+.premium {
+  margin: 30px auto;
+  padding: 20px;
+  background: #fff3cd;
+  border: 2px dashed #ff9800;
+  border-radius: 15px;
+  max-width: 600px;
+  font-size: 1.2rem;
+  color: #e65100;
+}
+
+.premium button {
+  background: #ff9800;
+}
+
+.premium button:hover {
+  background: #e68900;
+}

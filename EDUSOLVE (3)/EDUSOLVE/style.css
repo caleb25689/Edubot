@@ -1,0 +1,25 @@
+h2 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.premium-section {
+  background: #fff9e6;
+  padding: 20px;
+  border-radius: 15px;
+  margin-top: 40px;
+}
+
+.premium-section button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: gold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.premium-section button:hover {
+  background: #ffcc00;
+}

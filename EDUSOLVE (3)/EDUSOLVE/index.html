@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>EduBot - Learn Smarter</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>🤖 EduBot</h1>
+
+  <!-- Search bar -->
+  <div class="card">
+    <h2>🔎 Ask EduBot</h2>
+    <input type="text" id="searchBox" placeholder="Type your question...">
+    <button onclick="askEduBot()">Ask</button>
+    <div id="answerBox"></div>
+  </div>
+
+  <!-- Progress Tracker -->
+  <div class="card">
+    <h2>📊 Progress Tracker</h2>
+    <progress id="progressBar" value="0" max="100"></progress>
+    <p id="progressText">0% completed</p>
+  </div>
+
+  <!-- Quizzes -->
+  <div class="card">
+    <h2>📝 Quizzes & Practice Tests</h2>
+    <button onclick="startQuiz()">Start Quiz</button>
+    <div id="quizBox"></div>
+  </div>
+
+  <!-- Voice Reading -->
+  <div class="card">
+    <h2>🔊 Voice Reading</h2>
+    <textarea id="readText" placeholder="Type text for EduBot to read aloud..."></textarea>
+    <button onclick="readAloud()">Read Aloud</button>
+  </div>
+
+  <!-- Homework Upload -->
+  <div class="card">
+    <h2>📷 Homework Upload</h2>
+    <input type="file" id="homeworkUpload" accept="image/*">
+    <p id="homeworkStatus">Upload your homework photo and EduBot will help soon.</p>
+  </div>
+
+  <!-- Premium Section -->
+  <div class="card premium">
+    <h2>⭐ Premium Lessons</h2>
+    <p>This section is for special content. Unlock by upgrading to Premium.</p>
+    <button onclick="unlockPremium()">Upgrade</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
